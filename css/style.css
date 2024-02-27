@@ -546,17 +546,10 @@ img {
 .checkout__total {
 	width: 300px;
 	position: relative;
-}
-
-.checkout__total::after {
-	content: '';
-	position: absolute;
-	top: -160px;
-	left: -30px;
-	width: 50vw;
-	height: 100vh;
 	background-color: #14141D;
-	z-index: -1;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
 }
 
 .checkout__table {
@@ -684,6 +677,7 @@ img {
 	display: flex; 
   align-items: center;
 	margin-top: 20px;
+	margin-right: 20px;
 }
 
 .icon-eye {
