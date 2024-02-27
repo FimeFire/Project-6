@@ -96,6 +96,16 @@ img {
 	font-size: 14px;
 }
 
+.header__phone-img {
+	height: 15px;
+	margin-right: 5px;
+}
+
+.header__phone-container {
+	display: flex;
+	align-items: center;
+}
+
 .header__wrapper {
 	height: 90px;
 	display: flex;
@@ -583,14 +593,15 @@ img {
 	color: #818181;
 }
 
-.select select {
+.select input {
 	background-color: transparent;
 	color: #fff;
-	height: 25px;
-	min-width: 60px;
+	max-height: 20px;
+	max-width: 45px;
 	border-radius: 5px;
 	border: 1px solid #fff;
 	outline: 0;
+	padding: 5px;
 }
 
 .select option {
@@ -607,10 +618,6 @@ img {
 .checkout__price {
 	font-size: 14px;
 	font-weight: 900;
-}
-
-.checkout__remove {
-
 }
 
 .checkout__remove:hover {
@@ -651,3 +658,39 @@ img {
 	display: flex;
 	flex-direction: column;
 }
+
+.news__watch {
+	max-height: 20px;
+}
+
+.news__views {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__views-left {
+  display: flex; 
+  align-items: center;
+	margin-top: 20px;
+}
+
+.news__views-left img {
+	width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.news__views-right {
+	display: flex; 
+  align-items: center;
+	margin-top: 20px;
+}
+
+.icon-eye {
+	max-height: 20px ;
+	margin-right: 10px;
+}
+
+
+
+
