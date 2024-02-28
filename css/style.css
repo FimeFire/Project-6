@@ -240,6 +240,14 @@ img {
 	background-color: #14141D;
 }
 
+.info__block-1 {
+	margin-bottom: 30px;
+	display: flex;
+	border-radius: 10px;
+	background-color: #14141D;
+	margin-top: 30px;
+}
+
 .info__img-wrapper {
 	position: relative;
 }
@@ -254,10 +262,19 @@ img {
 	content: "";
 }
 
+.info__img-wrapper-1 {
+	position: relative;
+}
+
 .info__img {
 	border-radius: 10px 0 0 10px;
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
+}
+
+.info__img-1 {
+	border-radius: 10px;
 	object-fit: cover;
 }
 
@@ -275,6 +292,12 @@ img {
 
 .info_text {
 	max-width: 500px;
+	font-size: 18px;
+	color: #DFDFDF;
+	line-height: 1.45;
+}
+
+.info-text-1 {
 	font-size: 18px;
 	color: #DFDFDF;
 	line-height: 1.45;
