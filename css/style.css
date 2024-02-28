@@ -653,7 +653,7 @@ img {
 }
 
 .news__watch {
-	max-height: 20px;
+	max-height: 15px;
 }
 
 .news__views {
@@ -681,10 +681,7 @@ img {
 }
 
 .icon-eye {
-	max-height: 20px ;
+	max-height: 15px ;
 	margin-right: 10px;
 }
-
-
-
 
